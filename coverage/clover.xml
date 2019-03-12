@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1551993766668" clover="3.2.0">
-  <project timestamp="1551993766668" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="9" coveredelements="9" complexity="0" loc="6" ncloc="6" packages="1" files="2" classes="2"/>
-    <file name="Port.js" path="/home/jackpearsall/Projects/cruise-ships/src/Port.js">
+<coverage generated="1552423372873" clover="3.2.0">
+  <project timestamp="1552423372873" name="All files">
+    <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="31" coveredelements="31" complexity="0" loc="24" ncloc="24" packages="1" files="3" classes="3"/>
+    <file name="Itinerary.js" path="/home/jackpearsall/Projects/cruise-ships/src/Itinerary.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="Port.js" path="/home/jackpearsall/Projects/cruise-ships/src/Port.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="11" type="stmt"/>
+      <line num="3" count="11" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="11" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
     </file>
     <file name="Ship.js" path="/home/jackpearsall/Projects/cruise-ships/src/Ship.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="2" count="3" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
