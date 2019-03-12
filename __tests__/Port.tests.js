@@ -5,7 +5,7 @@ describe('Port', () => {
     expect(new Port()).toBeInstanceOf(Object);
   });
   it('A new port has a name property', () => {
-    expect(new Port(Port)).toHaveProperty('name');
+    expect(new Port('Dover').port).toEqual('Dover');
   });
   it('A port can add a ship to it\'s ship array', () => {
     const port = new Port('Dover');
@@ -24,7 +24,8 @@ describe('Port', () => {
     port.addShip(ssGreatBritain);
     port.addShip(anotherShip);
     port.removeShip(queenMary);
-    port.removeShip(anotherShip);
-    expect(port.ships).toEqual([{ name: 'Titanic' }, { name: 'SS Great Britain' }]);
+    expect(port.ships).toEqual([{ name: 'Titanic' }, { name: 'SS Great Britain' }, { name: 'Another Ship' }]);
+    port.removeShip(titanic);
+    expect(port.ships).toEqual([{ name: 'SS Great Britain' }, { name: 'Another Ship' }]);
   });
 });
