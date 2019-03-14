@@ -1,5 +1,5 @@
 function Port(name) {
-  this.port = name;
+  this.name = name;
   this.ships = [];
 }
 
