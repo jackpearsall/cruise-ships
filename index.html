@@ -7,17 +7,25 @@
     <title>Cruise Ships</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
-
 </head>
 <body>
-    <div id = 'viewport'></div>
+    <div id = 'viewport'>
+        <div id = 'ports'></div>
+    </div>
     <script src="src/controller.js"></script>
     <script>
         const controller = new Controller();
       </script>
     <script src="src/Port.js"></script>
-    <!-- <script>
-        const controller = new Controller();
-      </script> -->
+    <script src="src/Itinerary.js"></script>
+    <script>
+        const itinerary = new Itinerary([
+          new Port('Liverpool'), 
+          new Port('Belfast'),
+          new Port('Aberdeen'),
+          new Port('Hull')
+        ])
+        controller.renderPorts(itinerary.ports)
+      </script>
 </body>
 </html>
