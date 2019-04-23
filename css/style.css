@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#viewport {
+    width: 1025px;
+    height: 256px;
+    position: relative;
+    overflow-x: auto;
+    background-image: url('../images/water0.png');
+}
+	
+#ports {
+	width: 8px;
+	margin-top: 96px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#ports > .port {
+	width: 64px;
+	height: 32px;
+	background-image:  url('../images/port.png');
+}
+
+#ship {
+    width: 128px;
+    height: 64px;
+    background-image: url('../images/ship.png');
+    position: absolute;
+  }
+#sailbutton {
+    border: 0;
+    background-color: #FB3640; 
+    color: white;
+    font-family: 'Exo', cursive;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#sailbutton:focus {
+    background-color: #d8040f;
+    border-bottom-width: 0;
+    padding-top: 14px;
+  }
+
+#message {
+    padding: 16px;
+    font-family: 'Exo', cursive;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-top: 3px solid black;
+    background-color: white;
+}
